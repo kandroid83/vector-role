@@ -1,2 +1,9 @@
 ---
-# defaults file for vector-role
+vector_version: "0.44.0"
+vector_config_dir: "/etc/vector"
+vector_data_dir: "/var/lib/vector"
+
+clickhouse_host: "127.0.0.1"
+clickhouse_port: 8123
+clickhouse_database: "logs"
+clickhouse_table: "logs"
